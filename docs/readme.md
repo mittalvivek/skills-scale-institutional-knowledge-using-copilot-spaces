@@ -1,0 +1,11 @@
+```markdown
+# OctoAcme Project Processes — Overview
+
+This repository contains OctoAcme's program-level project management process documents and templates. The docs centralize how we decide what to build, plan delivery, run day-to-day execution, manage risks and releases, and capture continuous improvement. Use these docs as a single source of truth for project One‑pagers, backlog templates, release checklists, and retrospective action items.
+
+OctoAcme runs projects through a lightweight lifecycle: Initiation (validate the problem and produce a Project One‑pager), Planning (kickoff, prioritized backlog, estimates, and Definition of Done), Execution (implement, test, review using a project board), Release (pre‑release checks, smoke tests, automated deployments where possible), and Close & Retrospective (capture learnings and track action items). Key artifacts include the Project One‑pager, release and milestone plans, backlog items with acceptance criteria, a risk register, and release notes.
+
+Workflows are explicit: teams operate a project board with columns like Backlog → Ready → In Progress → In Review → QA → Done and follow a backlog-item template (title, description, acceptance criteria, estimate, owner, links). The pull request workflow emphasizes small, CI‑backed PRs that include the issue link and acceptance criteria, run automated tests and linting, and require at least one approval before merge. Release and deployment follow checklists (staging verification, smoke tests, rollback plans) and an incident/rollback playbook.
+
+Roles and communication cadence are defined to reduce ambiguity. Core personas include Product Managers (PdM) — own outcomes and prioritization; Project Managers (PM) — coordinate delivery, risks, and communications; Developers — implement and test; QA — validate acceptance; and Stakeholders — provide input and approvals. Communication cadence includes daily standups, weekly PM+PdM syncs and delivery reviews, and monthly stakeholder updates. Quality assurance is layered: unit and integration tests, end‑to‑end smoke tests for critical flows, CI security scans, and manual QA when needed. Retrospectives capture improvements and feed action items back into the backlog for continuous improvement.
+```
